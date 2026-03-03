@@ -22,4 +22,12 @@ M.nvdash = {
     },
 }
 
+M.ui = {
+    font = {
+    family = "JetBrains Mono",
+    size = 14,
+    weight = "semibold",
+  }
+}
+vim.o.guifont = "JetBrains Mono:h14"
 return M
