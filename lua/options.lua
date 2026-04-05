@@ -7,4 +7,10 @@ vim.opt.shiftwidth = 4    -- indentation width
 vim.opt.tabstop = 4       -- visual width of a tab
 vim.opt.softtabstop = 4   -- spaces inserted in insert mode
 
--- vim.o.cursorlineopt ='both' -- optional
+-- This tells Neovim that .ino files are C++ files
+-- This is what triggers clangd (autocomplete) to start
+vim.filetype.add({
+  extension = {
+    ino = "cpp",
+  },
+})
