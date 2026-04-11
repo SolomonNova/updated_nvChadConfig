@@ -1,0 +1,45 @@
+{
+  "File Header": {
+    "prefix": "init",
+    "body": [
+      "/*",
+      "    File name  : $1",
+      "    Created at : $2",
+      "    Author     : Solomon",
+      "*/",
+      "$0"
+    ],
+    "description": "File header boilerplate with jumping tabstops"
+  },
+  "Main Function": {
+    "prefix": "main",
+    "body": [
+      "int main(int argc, char *argv[]) {",
+      "\t$0",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Standard main function"
+  },
+
+  "Wall of Slashes": {
+    "prefix": "wall",
+    "body": [
+      "//////////////////////////////////////////////////////////////////////",
+      "//////////////////////////////////////////////////////////////////////",
+      "$0"
+    ],
+    "description": "Two lines of comment slashes"
+  },
+
+  "Definitions Header": {
+    "prefix": "definitions",
+    "body": [
+      "/*======================== Definitions ============================*/",
+      "$0",
+      "/*=================================================================*/"
+    ],
+    "description": "Definitions block with cursor in middle"
+  }
+}
+
