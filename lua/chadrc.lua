@@ -2,7 +2,7 @@
 local M = {}
 
 M.base46 = {
-    theme = "ashes",
+    theme = "catppuccin",
 }
 
 M.nvdash = {
